@@ -1,6 +1,6 @@
 # Odour_distance_paper
 
-👋 Welcome to the `Odour_distance_paper` repo, where we release datasets and analysis scripts used for plots in:
+👋 Welcome to the `Odour_distance_paper` repo. Here you'll find essential code, and data supporting our study on how mice estimate odour source distance using fast temporal features of odour plumes.
 
 **Mice discriminate odour source distance via sub-sniff temporal features of odour plumes** ([preprint link])
 
@@ -23,7 +23,7 @@ Our key findings:
 - 🧠 A small subset of MTCs showed **distance-sensitive responses** that tracked high-frequency odour fluctuations.
 - 🤖 Population activity encoded source distance, and correlated more strongly with fast temporal features than with average intensity.
 
-Together, these results reveal that mice can use **rapid odour fluctuations** to infer spatial properties of odour sources — an ability that enhances their environmental awareness without requiring physical movement.
+Together, these results reveal that mice can use **rapid odour fluctuations** to infer spatial properties of odour sources.
 
 ---
 
@@ -46,11 +46,9 @@ conda activate odd_env
 ```bash
 jupyter notebook
 ```
-
 5. Update paths in scripts/startup.py and notebooks (e.g. notebooks/analysis_distance.ipynb) to reflect your local file structure.
 
 6. Run analysis notebooks to reproduce key behavioural and imaging plots (with additional scripts released after peer review).
-
 
 ---
 
@@ -89,21 +87,15 @@ Two-photon Ca²⁺ imaging of olfactory bulb projection neurons during plume pla
 | `decoder_accuracy.csv` | Population-level decoding performance | [link] |
 
 
-- **Ackels et al. 2021** – oVR and sub-sniff odour encoding
-- **Dasgupta et al. 2022** – OB projection neurons and high-frequency coding
-- **Tootoonian et al. 2025** – Models of spatial inference from odour dynamics
-- **Marin et al. 2021** – Mouse navigation in turbulent odour plumes
-
-
 ## 📚 Related publications
 
-- Ackels et al. 2021 – oVR system and sub-sniff temporal encoding in OB
+- Ackels, Erskine, Dasgupta et al. 2021 – Fast odour dynamics are encoded in the olfactory system and guide behaviour
 - Dasgupta et al. 2022 – High-frequency odour signal tracking in projection neurons
 - Tootoonian et al. 2025 – Theoretical work on spatial olfactory inference
-- Marin et al. 2021 – Mouse navigation using turbulent odour plumes
+- Marin et al. 2021 – Spatial information from the odour environment in mammalian olfaction
 
 ## 🙌 Acknowledgements
-
+This project was a collaboration among behavioural, systems, and computational neuroscientists. We thank the Francis Crick Institute, University College London, and the University of Bonn for their support. Please see the manuscript for full author contributions and funding sources.
 
 ## ☎️ Contact
 For questions, data access, or collaboration inquiries, contact:
