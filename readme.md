@@ -35,7 +35,7 @@ Together, these results reveal that mice can use **rapid odour fluctuations** to
 git clone https://github.com/ackels-lab/Odour_distance_paper.git
 ```
 
-2. Download datasets from our Zenodo archive (links below).
+2. Download datasets from our Zenodo archive (link below).
 
 3. Create a conda environment with required packages:
 ```bash
@@ -51,41 +51,6 @@ jupyter notebook
 6. Run the analysis notebook to reproduce key results from the main figures (additional scripts will be released after peer review).
 
 ---
-
-## 🧐 The datasets
-
-```markdown
-### Behavioural data
-
-High-throughput recordings from head-fixed mice trained to discriminate odour source distances.
-
-| Cohort | Description | Zenodo link |
-|--------|-------------|-------------|
-| C001   | Binary (near vs far) discrimination task | [link] |
-| C002   | Multi-distance generalisation task | [link] |
-
----
-
-### Odour plume data
-
-Includes PID recordings and extracted temporal features for odours at multiple distances.
-
-| File | Description | Link |
-|------|-------------|------|
-| `plume_features.csv` | Extracted plume statistics (peak slope, intermittency) | [link] |
-| `pid_traces.npy`     | Raw PID signals used to estimate odour dynamics | [link] |
-
----
-
-### Imaging data
-
-Two-photon Ca²⁺ imaging of olfactory bulb projection neurons during plume playback.
-
-| File | Description | Link |
-|------|-------------|------|
-| `imaging_summary.h5`    | ΔF/F responses with ROI metadata | [link] |
-| `decoder_accuracy.csv` | Population-level decoding performance | [link] |
-
 
 ## 📚 Related publications
 
