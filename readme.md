@@ -13,17 +13,17 @@ How do animals estimate how far away an odour source is? In this study, we show 
 To investigate this, we combined:
 
 - A **custom wind tunnel** to generate reproducible, distance-dependent odour plumes,
-- An **olfactory virtual reality (oVR)** system for automated behavioural training,
+- An **olfactory virtual reality** system for automated behavioural training,
 - And **two-photon calcium imaging** of mitral and tufted cells (MTCs) in the olfactory bulb (OB).
 
 Our key findings:
 
-- 🐭 **Mice discriminate odour sources at different distances** using sub-sniff (faster than ~12 Hz) temporal features in odour plumes.
-- 📈 Behavioural performance was best explained by features such as **onset slope**, **peak height**, and **intermittency**, not just mean odour concentration.
-- 🧠 A small subset of MTCs showed **distance-sensitive responses** that tracked high-frequency odour fluctuations.
+- 🐭 **Mice discriminate odour sources at different distances** using sub-sniff temporal features in odour plumes.
+- 📈 Behavioural performance was best explained by features such as **number of peaks** and **peak height**, not just mean odour concentration.
+- 🧠 A small subset of MTCs responded differentially to plumes presented from different distances, and thus showed **distance-sensitive responses**.
 - 🤖 Population activity encoded source distance, and correlated more strongly with fast temporal features than with average intensity.
 
-Together, these results reveal that mice can use **rapid odour fluctuations** to infer spatial properties of odour sources.
+Together, these results reveal that mice can use **rapid odour fluctuations** to discriminate the distance of odour sources.
 
 ---
 
@@ -32,7 +32,7 @@ Together, these results reveal that mice can use **rapid odour fluctuations** to
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/your-username/Odour_distance_paper.git
+git clone https://github.com/ackels-lab/Odour_distance_paper.git
 ```
 
 2. Download datasets from our Zenodo archive (links below).
@@ -46,9 +46,9 @@ conda activate odd_env
 ```bash
 jupyter notebook
 ```
-5. Update paths in scripts/startup.py and notebooks (e.g. notebooks/analysis_distance.ipynb) to reflect your local file structure.
+5. Update paths in scripts/analysis.main.py to reflect your local file structure.
 
-6. Run analysis notebooks to reproduce key behavioural and imaging plots (with additional scripts released after peer review).
+6. Run the analysis notebook to reproduce key results from the main figures (additional scripts will be released after peer review).
 
 ---
 
