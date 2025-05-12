@@ -52,13 +52,6 @@ jupyter notebook
 
 ---
 
-## 📚 Related publications
-
-- Ackels, Erskine, Dasgupta et al. 2021 – Fast odour dynamics are encoded in the olfactory system and guide behaviour
-- Dasgupta et al. 2022 – High-frequency odour signal tracking in projection neurons
-- Tootoonian et al. 2025 – Theoretical work on spatial olfactory inference
-- Marin et al. 2021 – Spatial information from the odour environment in mammalian olfaction
-
 ## 🙌 Acknowledgements
 This project was a collaboration among behavioural, systems, and computational neuroscientists. We thank the Francis Crick Institute, University College London, and the University of Bonn for their support. Please see the manuscript for full author contributions and funding sources.
 
