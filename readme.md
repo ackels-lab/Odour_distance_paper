@@ -35,7 +35,7 @@ Together, these results reveal that mice can use **rapid odour fluctuations** to
 git clone https://github.com/ackels-lab/Odour_distance_paper.git
 ```
 
-2. Download datasets from our Zenodo archive (link below).
+2. Download datasets from our [Zenodo archive(https://zenodo.org/records/15390336)].
 
 3. Create a conda environment with required packages:
 ```bash
